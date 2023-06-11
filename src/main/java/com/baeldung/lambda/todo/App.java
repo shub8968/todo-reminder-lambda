@@ -27,7 +27,7 @@ public class App implements RequestStreamHandler {
 
     @Override
     public void handleRequest(InputStream inputStream, OutputStream outputStream, Context context) throws IOException {
-        context.getLogger().log("App starting - 2\n");
+        context.getLogger().log("App starting - 4\n");
         context.getLogger().log("Environment: "
           + environmentName + "\n");
 
