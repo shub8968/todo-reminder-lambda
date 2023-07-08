@@ -17,7 +17,7 @@ public class ToDoReaderService {
 
     @Inject
     public ToDoReaderService(Config configuration, ToDoApi toDoApi) {
-        LOGGER.info("ToDo Endpoint on: {}", configuration.getToDoEndpoint());
+        LOGGER.info("ToDo Endpoints on: {}", configuration.getToDoEndpoint());
 
         this.toDoApi = toDoApi;
     }
